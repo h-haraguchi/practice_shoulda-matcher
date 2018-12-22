@@ -42,6 +42,9 @@ group :development, :test do
 
   gem 'rspec', '~> 3.8.0'
   gem 'rspec-rails', '~> 3.8.0'
+  # For shoulda-matcher
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '4.0.0.rc1'
 end
 
 group :development do
@@ -59,10 +62,6 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
-
-  # For shoulda-matcher
-  gem 'rails-controller-testing'
-  gem 'shoulda-matchers', '4.0.0.rc1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
