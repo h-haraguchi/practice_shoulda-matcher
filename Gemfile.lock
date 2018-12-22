@@ -186,6 +186,8 @@ GEM
       activesupport (>= 4.2.0)
     spring (2.0.2)
       activesupport (>= 4.2)
+    spring-commands-rspec (1.0.4)
+      spring (>= 0.9.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
@@ -238,6 +240,7 @@ DEPENDENCIES
   selenium-webdriver
   shoulda-matchers (= 4.0.0.rc1)
   spring
+  spring-commands-rspec (~> 1.0.4)
   spring-watcher-listen (~> 2.0.0)
   sqlite3
   turbolinks (~> 5)
@@ -249,4 +252,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
