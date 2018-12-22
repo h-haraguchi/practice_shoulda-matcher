@@ -59,6 +59,7 @@ group :test do
 
   # For shoulda-matcher
   gem 'rails-controller-testing'
+  gem 'rspec', '~> 3.8.0'
   gem 'shoulda-matchers', '4.0.0.rc1'
 end
 
