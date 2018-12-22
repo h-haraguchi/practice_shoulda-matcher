@@ -5,5 +5,7 @@ class UserProfile
   include ActiveModel::Model
   attr_accessor :website_url
 
-  validates_format_of :website_url, with: URI::DEFAULT_PARSER.make_regexp
+  validates :website_url, presence: true, format: URI::DEFAULT_PARSER.make_regexp
+
+  has_secure_password
 end
